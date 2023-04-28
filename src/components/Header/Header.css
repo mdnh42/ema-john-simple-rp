@@ -1,0 +1,14 @@
+.header {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 40px;
+}
+
+.header a {
+    text-decoration: none;
+    color: orange;
+    padding-left: 30px;
+}
