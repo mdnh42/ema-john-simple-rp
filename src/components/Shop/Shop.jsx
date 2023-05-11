@@ -27,12 +27,12 @@ const Shop = () => {
             }
             console.log('added proudct ', addedProduct);
         }
-        //step: 5: set the cart
         setCart(savedCart);
     }, [products])
 
     const handleAddToCart = (product) => {
         const newCart = [...cart, product];
+
         setCart(newCart);
         addToDb(product.id);
     }
